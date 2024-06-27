@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_19">
+    <output url="file://$MODULE_DIR$/Hazelcast/target/classes" />
+    <output-test url="file://$MODULE_DIR$/Hazelcast/target/test-classes" />
+    <content url="file://$MODULE_DIR$/Hazelcast">
+      <sourceFolder url="file://$MODULE_DIR$/Hazelcast/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Hazelcast/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/Hazelcast/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/Hazelcast/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="19" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.hazelcast:hazelcast:5.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.hazelcast:hazelcast-all:4.2.8" level="project" />
+  </component>
+</module>
