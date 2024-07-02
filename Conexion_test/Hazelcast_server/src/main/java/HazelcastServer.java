@@ -12,8 +12,10 @@ public class HazelcastServer {
         networkConfig.setPort(5701).setPortAutoIncrement(false);
         networkConfig.getJoin().getMulticastConfig().setEnabled(false);
         networkConfig.getJoin().getTcpIpConfig()
-                .addMember("192.168.43.55") // Reemplaza con la IP del otro ordenador
-                .addMember("192.168.43.53") // Reemplaza con la IP de tu ordenador
+                .addMember("192.168.43.166") // Reemplaza con la IP del otro ordenador
+                .addMember("192.168.43.53")
+                .addMember("192.168.43.221")
+                .addMember("192.168.43.55")// Reemplaza con la IP de tu ordenador
                 .setEnabled(true);
 
         HazelcastInstance hazelcastInstance = Hazelcast.newHazelcastInstance(config);
